@@ -8,7 +8,8 @@ This test uses a modified local version of MvvmCross printing the time used by t
 It consist on only onw activity that is opened and closed 14 times.
 
 The SetContentView method of MvxActivity has been modified.
-{% highlight C# %}
+
+```csharp
 public override void SetContentView(int layoutResId)
 {
     View view;
@@ -19,11 +20,11 @@ public override void SetContentView(int layoutResId)
     Mvx.Trace(MvxTraceLevel.Diagnostic, "Binding Inflate Duration {0}", (dt2 - dt).TotalMilliseconds);
     this.SetContentView(view);
 }
-{% endhighlight %}
+```
 
 I created a simple version of the MvvmCross/Platform/Platform/ReflectionExtensions.cs source file using neither Linq nor Yield
 
-{% highlight C# %}
+```csharp
 namespace MvvmCross.Platform
 {
 	using System;
@@ -302,7 +303,7 @@ namespace MvvmCross.Platform
 		}
 	}
 }
-{% endhighlight %}
+```
 
 This version probably needs a little bit more testing and tweaking.
 
