@@ -5,7 +5,7 @@ This repository is related to issue [#1342](https://github.com/MvvmCross/MvvmCro
 
 This test uses a modified local version of MvvmCross printing the time used by the BindingInflate.
 
-It consist on only onw activity that is opened and closed 14 times.
+It consist on only one activity that is opened and closed 14 times.
 
 The SetContentView method of MvxActivity has been modified.
 
