@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingInflatePerformanceTest.Core", "BindingInflatePerformanceTest.Core\BindingInflatePerformanceTest.Core.csproj", "{28ECAC96-8A4F-455D-AC1E-A834409DB982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingInflatePerformanceTest.Android", "BindingInflatePerformanceTest.Android\BindingInflatePerformanceTest.Android.csproj", "{98CE2D29-E5AE-4B1A-B2E2-16592CF4056D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28ECAC96-8A4F-455D-AC1E-A834409DB982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28ECAC96-8A4F-455D-AC1E-A834409DB982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28ECAC96-8A4F-455D-AC1E-A834409DB982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28ECAC96-8A4F-455D-AC1E-A834409DB982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CE2D29-E5AE-4B1A-B2E2-16592CF4056D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CE2D29-E5AE-4B1A-B2E2-16592CF4056D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CE2D29-E5AE-4B1A-B2E2-16592CF4056D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CE2D29-E5AE-4B1A-B2E2-16592CF4056D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
