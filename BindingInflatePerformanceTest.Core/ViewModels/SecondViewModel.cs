@@ -3,7 +3,7 @@ using MvvmCross.Core.ViewModels;
 
 namespace BindingInflatePerformanceTest.Core.ViewModels
 {
-	public class FirstViewModel
+	public class SecondViewModel
 		: MvxViewModel
 	{
 		private string _hello = "Hello MvvmCross";
@@ -13,9 +13,9 @@ namespace BindingInflatePerformanceTest.Core.ViewModels
 			set { SetProperty(ref _hello, value); }
 		}
 
-		public void ShowSecondViewModel()
+		public void CloseMe()
 		{
-			ShowViewModel<SecondViewModel>();
+			Close(this);
 		}
 	}
 }

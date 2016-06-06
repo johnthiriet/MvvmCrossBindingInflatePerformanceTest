@@ -105,6 +105,7 @@
     <Compile Include="SplashScreen.cs" />
     <Compile Include="DebugTrace.cs" />
     <Compile Include="Setup.cs" />
+    <Compile Include="Views\SecondView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

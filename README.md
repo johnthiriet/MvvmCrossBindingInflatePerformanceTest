@@ -5,20 +5,19 @@ This repository is related to issue [#1342](https://github.com/MvvmCross/MvvmCro
 
 This test uses a modified local version of MvvmCross printing the time used by the BindingInflate.
 
-It consist on only one activity that is opened and closed 14 times.
+It consist on only one activity that is opened and closed automatically 20 times.
 
 The SetContentView method of MvxActivity has been modified.
 
 ```csharp
 public override void SetContentView(int layoutResId)
 {
-    View view;
-    var dt = DateTime.Now;
-    view = this.BindingInflate(layoutResId, null);
-    var dt2 = DateTime.Now;
-
-    Mvx.Trace(MvxTraceLevel.Diagnostic, "Binding Inflate Duration {0}", (dt2 - dt).TotalMilliseconds);
-    this.SetContentView(view);
+	View view;
+	using (MvxStopWatch.Create("BindingInflate", "Duration"))
+	{
+		view = this.BindingInflate(layoutResId, null);
+	}
+	this.SetContentView(view);
 }
 ```
 
@@ -234,8 +233,6 @@ namespace MvvmCross.Platform
 			return methods.Find(x => x.Name == name);
 		}
 
-
-
 		public static List<ConstructorInfo> GetConstructors(this Type type, BindingFlags flags)
 		{
 			var ctors = type.GetTypeInfo().DeclaredConstructors;
@@ -304,33 +301,35 @@ namespace MvvmCross.Platform
 	}
 }
 ```
+# Test results
 
-This version probably needs a little bit more testing and tweaking.
+The test has been done on a real device (Xiaomi 4c).
 
-Here are the first performance results.
-
-
-| Test    | Using Linq | Using Yield | No Linq Nor Yield |
+| Test    | No Linq Nor Yield | Using Yield | Using Linq  |
 |:-------:|:----------:|:-----------:|:-----------------:|
-| Test    | 468,544    | 487,692     | 491,53            |
-| Test    | 771,512    | 978,187     | 1066,50           |
-| Test    | 840,576    | 1031,439    | 1172,74           |
-| Test    | 939,418    | 877,451     | 863,29            |
-| Test    | 775,485    | 1123,052    | 950,56            |
-| Test    | 1011,873   | 1087,925    | 1001,25           |
-| Test    | 1144,127   | 1282,016    | 847,25            |
-| Test    | 983,441    | 1082,459    | 1015,64           |
-| Test    | 794,55     | 859,534     | 851,29            |
-| Test    | 930,924    | 998,959     | 973,28            |
-| Test    | 969,917    | 1026,068    | 967,62            |
-| Test    | 1026,292   | 976,693     | 760,00            |
-| Test    | 869,074    | 822,47      | 1066,36           |
-| Test    | 1051,532   | 962,377     | 995,43            |
-| Test    | 1008,592   | 1221,89     | 1119,32           |
-| *Total* | *13585,86* | *14818,21*  | *14142,05*        |
-|*Average*| *905,72*   | *987,88*    | *942,80*          |
+| Test    |1330|1397|1300|
+| Test    |1266|1346|1234|
+| Test    |1320|1416|1306|
+| Test    |1323|1437|1331|
+| Test    |1376|1458|1363|
+| Test    |1462|1594|1404|
+| Test    |1450|1549|1463|
+| Test    |1537|1572|1522|
+| Test    |1544|1607|1639|
+| Test    |1595|1702|1610|
+| Test    |1612|1700|1678|
+| Test    |1664|1737|1683|
+| Test    |1718|1906|1712|
+| Test    |1880|1954|1742|
+| Test    |1895|1878|1794|
+| Test    |1908|2481|2460|
+| Test    |1938|1866|1917|
+| Test    |1871|2022|1971|
+| Test    |2031|1935|1853|
+| Test    |2123|2237|2045|
+| Test    |1946|2027|2103|
+|    |    |
+|*Average|1656,619048|1753,380952|1672,857143|
 
-#Results
-
-On this simple project the test tends to show that Linq may be a little faster than other method in Debug mode on a simulator.
-Some more test on real apps are necessary to confirm that because it goes against all known fact that Linq tends to be slower.
+Testing on a real device a measuring time using MvxStopWatch shows a slight improvement on the inflation time for a huge linear layout without using linq and without yield return.
+We can expect an even more improvement with nested layouts.
