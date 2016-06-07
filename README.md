@@ -305,31 +305,33 @@ namespace MvvmCross.Platform
 
 The test has been done on a real device (Xiaomi 4c).
 
-| Test    | No Linq Nor Yield | Using Yield | Using Linq  |
+| Test    | No Linq Nor Yield | Using Yield | Using Linq |
 |:-------:|:----------:|:-----------:|:-----------------:|
-| Test    |1330|1397|1300|
-| Test    |1266|1346|1234|
-| Test    |1320|1416|1306|
-| Test    |1323|1437|1331|
-| Test    |1376|1458|1363|
-| Test    |1462|1594|1404|
-| Test    |1450|1549|1463|
-| Test    |1537|1572|1522|
-| Test    |1544|1607|1639|
-| Test    |1595|1702|1610|
-| Test    |1612|1700|1678|
-| Test    |1664|1737|1683|
-| Test    |1718|1906|1712|
-| Test    |1880|1954|1742|
-| Test    |1895|1878|1794|
-| Test    |1908|2481|2460|
-| Test    |1938|1866|1917|
-| Test    |1871|2022|1971|
-| Test    |2031|1935|1853|
-| Test    |2123|2237|2045|
-| Test    |1946|2027|2103|
+|Test|1336|1321|1394|
+|Test|1283|1237|1311|
+|Test|1332|1301|1390|
+|Test|1331|1350|1424|
+|Test|1412|1378|1513|
+|Test|1448|1445|1608|
+|Test|1575|1515|1565|
+|Test|1557|1507|1695|
+|Test|1576|1547|1656|
+|Test|1732|1730|1655|
+|Test|1634|1823|1726|
+|Test|1664|1652|1788|
+|Test|1751|1705|1788|
+|Test|1749|1762|1820|
+|Test|1791|1772|1888|
+|Test|2623|2383|2659|
+|Test|1793|1935|2020|
+|Test|1860|1900|2069|
+|Test|2188|1886|1966|
+|Test|1924|2092|2005|
+|Test|1986|2162|2179|
 |    |    |
-|*Average|1656,619048|1753,380952|1672,857143|
+|*Average*|1692,619048|1685,857143|1767,571429|
 
-Testing on a real device a measuring time using MvxStopWatch shows a slight improvement on the inflation time for a huge linear layout without using linq and without yield return.
+Testing on a real device a measuring time using MvxStopWatch shows a slight improvement on the inflation time for a huge linear layout without using linq.
+In this particular test. the difference in performance between the method using yield return and the other one using lists isn't relevant a the winner is the one with yield.
+Some further performance testing is needed here since most of the time I've better performance without yield return than in this particular thest.
 We can expect an even more improvement with nested layouts.

@@ -47,69 +47,6 @@ namespace BindingInflatePerformanceTest.Android
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxListView;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxListView_MvxItemTemplate;
-			global::MvvmCross.Dialog.Droid.Resource.Attribute.MvxBind = global::BindingInflatePerformanceTest.Android.Resource.Attribute.MvxBind;
-			global::MvvmCross.Dialog.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::BindingInflatePerformanceTest.Android.Resource.Attribute.MvxDropDownItemTemplate;
-			global::MvvmCross.Dialog.Droid.Resource.Attribute.MvxGroupItemTemplate = global::BindingInflatePerformanceTest.Android.Resource.Attribute.MvxGroupItemTemplate;
-			global::MvvmCross.Dialog.Droid.Resource.Attribute.MvxItemTemplate = global::BindingInflatePerformanceTest.Android.Resource.Attribute.MvxItemTemplate;
-			global::MvvmCross.Dialog.Droid.Resource.Attribute.MvxLang = global::BindingInflatePerformanceTest.Android.Resource.Attribute.MvxLang;
-			global::MvvmCross.Dialog.Droid.Resource.Attribute.MvxSource = global::BindingInflatePerformanceTest.Android.Resource.Attribute.MvxSource;
-			global::MvvmCross.Dialog.Droid.Resource.Attribute.MvxTemplate = global::BindingInflatePerformanceTest.Android.Resource.Attribute.MvxTemplate;
-			global::MvvmCross.Dialog.Droid.Resource.Drawable.dialog_disclosure = global::BindingInflatePerformanceTest.Android.Resource.Drawable.dialog_disclosure;
-			global::MvvmCross.Dialog.Droid.Resource.Drawable.dialog_expander_ic_minimized = global::BindingInflatePerformanceTest.Android.Resource.Drawable.dialog_expander_ic_minimized;
-			global::MvvmCross.Dialog.Droid.Resource.Drawable.dialog_icon = global::BindingInflatePerformanceTest.Android.Resource.Drawable.dialog_icon;
-			global::MvvmCross.Dialog.Droid.Resource.Drawable.dialog_spinner_default_holo_dark = global::BindingInflatePerformanceTest.Android.Resource.Drawable.dialog_spinner_default_holo_dark;
-			global::MvvmCross.Dialog.Droid.Resource.Drawable.dialog_spinner_default_holo_light = global::BindingInflatePerformanceTest.Android.Resource.Drawable.dialog_spinner_default_holo_light;
-			global::MvvmCross.Dialog.Droid.Resource.Id.MvvmCrossTagId = global::BindingInflatePerformanceTest.Android.Resource.Id.MvvmCrossTagId;
-			global::MvvmCross.Dialog.Droid.Resource.Id.MvxBindingTagUnique = global::BindingInflatePerformanceTest.Android.Resource.Id.MvxBindingTagUnique;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_BoolField = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_BoolField;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_Button = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_Button;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_DisclosureField = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_DisclosureField;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_HtmlField = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_HtmlField;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_ImageLeft = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_ImageLeft;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_ImageRight = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_ImageRight;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_LabelField = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_LabelField;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_LabelPercentageField = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_LabelPercentageField;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_LabelSubtextField = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_LabelSubtextField;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_Panel = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_Panel;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_RadioButtonList = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_RadioButtonList;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_SliderField = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_SliderField;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_Spinner = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_Spinner;
-			global::MvvmCross.Dialog.Droid.Resource.Id.dialog_ValueField = global::BindingInflatePerformanceTest.Android.Resource.Id.dialog_ValueField;
-			global::MvvmCross.Dialog.Droid.Resource.Id.iFormFieldValue = global::BindingInflatePerformanceTest.Android.Resource.Id.iFormFieldValue;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_achievements = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_achievements;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_boolfieldleft = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_boolfieldleft;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_boolfieldright = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_boolfieldright;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_boolfieldsubleft = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_boolfieldsubleft;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_boolfieldsubright = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_boolfieldsubright;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_button = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_button;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_datefield = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_datefield;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_fieldsetlabel = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_fieldsetlabel;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_floatimage = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_floatimage;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_html = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_html;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_labeldisclosure = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_labeldisclosure;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_labelfieldbelow = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_labelfieldbelow;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_labelfieldright = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_labelfieldright;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_multiline_labelfieldbelow = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_multiline_labelfieldbelow;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_onofffieldright = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_onofffieldright;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_panel = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_panel;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_root = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_root;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_selectlist = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_selectlist;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_selectlistfield = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_selectlistfield;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_textarea = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_textarea;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_textfieldbelow = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_textfieldbelow;
-			global::MvvmCross.Dialog.Droid.Resource.Layout.dialog_textfieldright = global::BindingInflatePerformanceTest.Android.Resource.Layout.dialog_textfieldright;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxBinding = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxBinding;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxBinding_MvxBind = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxBinding_MvxBind;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxBinding_MvxLang = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxBinding_MvxLang;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxControl = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxControl;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxControl_MvxTemplate = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxControl_MvxTemplate;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxExpandableListView = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxExpandableListView;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxImageView = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxImageView;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxImageView_MvxSource = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxImageView_MvxSource;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxListView = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxListView;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
-			global::MvvmCross.Dialog.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::BindingInflatePerformanceTest.Android.Resource.Styleable.MvxListView_MvxItemTemplate;
 			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxBind = global::BindingInflatePerformanceTest.Android.Resource.Attribute.MvxBind;
 			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxDropDownItemTemplate = global::BindingInflatePerformanceTest.Android.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxGroupItemTemplate = global::BindingInflatePerformanceTest.Android.Resource.Attribute.MvxGroupItemTemplate;
@@ -1563,26 +1500,11 @@ namespace BindingInflatePerformanceTest.Android
 			// aapt resource value: 0x7f02004a
 			public const int abc_textfield_search_material = 2130837578;
 			
-			// aapt resource value: 0x7f02004b
-			public const int dialog_disclosure = 2130837579;
-			
 			// aapt resource value: 0x7f02004c
-			public const int dialog_expander_ic_minimized = 2130837580;
+			public const int notification_template_icon_bg = 2130837580;
 			
-			// aapt resource value: 0x7f02004d
-			public const int dialog_icon = 2130837581;
-			
-			// aapt resource value: 0x7f02004e
-			public const int dialog_spinner_default_holo_dark = 2130837582;
-			
-			// aapt resource value: 0x7f02004f
-			public const int dialog_spinner_default_holo_light = 2130837583;
-			
-			// aapt resource value: 0x7f020051
-			public const int notification_template_icon_bg = 2130837585;
-			
-			// aapt resource value: 0x7f020050
-			public const int splash = 2130837584;
+			// aapt resource value: 0x7f02004b
+			public const int splash = 2130837579;
 			
 			static Drawable()
 			{
@@ -1603,8 +1525,8 @@ namespace BindingInflatePerformanceTest.Android
 			// aapt resource value: 0x7f0c000a
 			public const int MvxBindingTagUnique = 2131492874;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int action0 = 2131492961;
+			// aapt resource value: 0x7f0c0052
+			public const int action0 = 2131492946;
 			
 			// aapt resource value: 0x7f0c0043
 			public const int action_bar = 2131492931;
@@ -1630,8 +1552,8 @@ namespace BindingInflatePerformanceTest.Android
 			// aapt resource value: 0x7f0c0044
 			public const int action_context_bar = 2131492932;
 			
-			// aapt resource value: 0x7f0c0065
-			public const int action_divider = 2131492965;
+			// aapt resource value: 0x7f0c0056
+			public const int action_divider = 2131492950;
 			
 			// aapt resource value: 0x7f0c0002
 			public const int action_menu_divider = 2131492866;
@@ -1663,14 +1585,14 @@ namespace BindingInflatePerformanceTest.Android
 			// aapt resource value: 0x7f0c002d
 			public const int buttonPanel = 2131492909;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int cancel_action = 2131492962;
+			// aapt resource value: 0x7f0c0053
+			public const int cancel_action = 2131492947;
 			
 			// aapt resource value: 0x7f0c003b
 			public const int checkbox = 2131492923;
 			
-			// aapt resource value: 0x7f0c0068
-			public const int chronometer = 2131492968;
+			// aapt resource value: 0x7f0c0059
+			public const int chronometer = 2131492953;
 			
 			// aapt resource value: 0x7f0c001f
 			public const int collapseActionView = 2131492895;
@@ -1690,48 +1612,6 @@ namespace BindingInflatePerformanceTest.Android
 			// aapt resource value: 0x7f0c0029
 			public const int default_activity_button = 2131492905;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int dialog_BoolField = 2131492950;
-			
-			// aapt resource value: 0x7f0c0057
-			public const int dialog_Button = 2131492951;
-			
-			// aapt resource value: 0x7f0c005c
-			public const int dialog_DisclosureField = 2131492956;
-			
-			// aapt resource value: 0x7f0c005b
-			public const int dialog_HtmlField = 2131492955;
-			
-			// aapt resource value: 0x7f0c0059
-			public const int dialog_ImageLeft = 2131492953;
-			
-			// aapt resource value: 0x7f0c0054
-			public const int dialog_ImageRight = 2131492948;
-			
-			// aapt resource value: 0x7f0c0052
-			public const int dialog_LabelField = 2131492946;
-			
-			// aapt resource value: 0x7f0c0055
-			public const int dialog_LabelPercentageField = 2131492949;
-			
-			// aapt resource value: 0x7f0c0053
-			public const int dialog_LabelSubtextField = 2131492947;
-			
-			// aapt resource value: 0x7f0c005d
-			public const int dialog_Panel = 2131492957;
-			
-			// aapt resource value: 0x7f0c005e
-			public const int dialog_RadioButtonList = 2131492958;
-			
-			// aapt resource value: 0x7f0c005a
-			public const int dialog_SliderField = 2131492954;
-			
-			// aapt resource value: 0x7f0c005f
-			public const int dialog_Spinner = 2131492959;
-			
-			// aapt resource value: 0x7f0c0058
-			public const int dialog_ValueField = 2131492952;
-			
 			// aapt resource value: 0x7f0c000e
 			public const int disableHome = 2131492878;
 			
@@ -1741,8 +1621,8 @@ namespace BindingInflatePerformanceTest.Android
 			// aapt resource value: 0x7f0c001c
 			public const int end = 2131492892;
 			
-			// aapt resource value: 0x7f0c006d
-			public const int end_padder = 2131492973;
+			// aapt resource value: 0x7f0c005e
+			public const int end_padder = 2131492958;
 			
 			// aapt resource value: 0x7f0c0027
 			public const int expand_activities_button = 2131492903;
@@ -1756,9 +1636,6 @@ namespace BindingInflatePerformanceTest.Android
 			// aapt resource value: 0x7f0c000f
 			public const int homeAsUp = 2131492879;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int iFormFieldValue = 2131492960;
-			
 			// aapt resource value: 0x7f0c002b
 			public const int icon = 2131492907;
 			
@@ -1768,14 +1645,14 @@ namespace BindingInflatePerformanceTest.Android
 			// aapt resource value: 0x7f0c0028
 			public const int image = 2131492904;
 			
-			// aapt resource value: 0x7f0c006c
-			public const int info = 2131492972;
+			// aapt resource value: 0x7f0c005d
+			public const int info = 2131492957;
 			
-			// aapt resource value: 0x7f0c0066
-			public const int line1 = 2131492966;
+			// aapt resource value: 0x7f0c0057
+			public const int line1 = 2131492951;
 			
-			// aapt resource value: 0x7f0c006a
-			public const int line3 = 2131492970;
+			// aapt resource value: 0x7f0c005b
+			public const int line3 = 2131492955;
 			
 			// aapt resource value: 0x7f0c000b
 			public const int listMode = 2131492875;
@@ -1783,8 +1660,8 @@ namespace BindingInflatePerformanceTest.Android
 			// aapt resource value: 0x7f0c002a
 			public const int list_item = 2131492906;
 			
-			// aapt resource value: 0x7f0c0064
-			public const int media_actions = 2131492964;
+			// aapt resource value: 0x7f0c0055
+			public const int media_actions = 2131492949;
 			
 			// aapt resource value: 0x7f0c001d
 			public const int middle = 2131492893;
@@ -1885,8 +1762,8 @@ namespace BindingInflatePerformanceTest.Android
 			// aapt resource value: 0x7f0c001a
 			public const int src_over = 2131492890;
 			
-			// aapt resource value: 0x7f0c0063
-			public const int status_bar_latest_event_content = 2131492963;
+			// aapt resource value: 0x7f0c0054
+			public const int status_bar_latest_event_content = 2131492948;
 			
 			// aapt resource value: 0x7f0c004e
 			public const int submit_area = 2131492942;
@@ -1894,17 +1771,17 @@ namespace BindingInflatePerformanceTest.Android
 			// aapt resource value: 0x7f0c000d
 			public const int tabMode = 2131492877;
 			
-			// aapt resource value: 0x7f0c006b
-			public const int text = 2131492971;
+			// aapt resource value: 0x7f0c005c
+			public const int text = 2131492956;
 			
-			// aapt resource value: 0x7f0c0069
-			public const int text2 = 2131492969;
+			// aapt resource value: 0x7f0c005a
+			public const int text2 = 2131492954;
 			
 			// aapt resource value: 0x7f0c0036
 			public const int textSpacerNoButtons = 2131492918;
 			
-			// aapt resource value: 0x7f0c0067
-			public const int time = 2131492967;
+			// aapt resource value: 0x7f0c0058
+			public const int time = 2131492952;
 			
 			// aapt resource value: 0x7f0c002c
 			public const int title = 2131492908;
@@ -2044,112 +1921,46 @@ namespace BindingInflatePerformanceTest.Android
 			public const int abc_select_dialog_material = 2130968600;
 			
 			// aapt resource value: 0x7f040019
-			public const int dialog_achievements = 2130968601;
+			public const int FirstView = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int dialog_boolfieldleft = 2130968602;
+			public const int notification_media_action = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int dialog_boolfieldright = 2130968603;
+			public const int notification_media_cancel_action = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int dialog_boolfieldsubleft = 2130968604;
+			public const int notification_template_big_media = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int dialog_boolfieldsubright = 2130968605;
+			public const int notification_template_big_media_narrow = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int dialog_button = 2130968606;
+			public const int notification_template_lines = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int dialog_datefield = 2130968607;
+			public const int notification_template_media = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int dialog_fieldsetlabel = 2130968608;
+			public const int notification_template_part_chronometer = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int dialog_floatimage = 2130968609;
+			public const int notification_template_part_time = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int dialog_html = 2130968610;
+			public const int select_dialog_item_material = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int dialog_labeldisclosure = 2130968611;
+			public const int select_dialog_multichoice_material = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int dialog_labelfieldbelow = 2130968612;
+			public const int select_dialog_singlechoice_material = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int dialog_labelfieldright = 2130968613;
+			public const int SplashScreen = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int dialog_multiline_labelfieldbelow = 2130968614;
-			
-			// aapt resource value: 0x7f040027
-			public const int dialog_onofffieldright = 2130968615;
-			
-			// aapt resource value: 0x7f040028
-			public const int dialog_panel = 2130968616;
-			
-			// aapt resource value: 0x7f040029
-			public const int dialog_root = 2130968617;
-			
-			// aapt resource value: 0x7f04002a
-			public const int dialog_selectlist = 2130968618;
-			
-			// aapt resource value: 0x7f04002b
-			public const int dialog_selectlistfield = 2130968619;
-			
-			// aapt resource value: 0x7f04002c
-			public const int dialog_textarea = 2130968620;
-			
-			// aapt resource value: 0x7f04002d
-			public const int dialog_textfieldbelow = 2130968621;
-			
-			// aapt resource value: 0x7f04002e
-			public const int dialog_textfieldright = 2130968622;
-			
-			// aapt resource value: 0x7f04002f
-			public const int FirstView = 2130968623;
-			
-			// aapt resource value: 0x7f040030
-			public const int notification_media_action = 2130968624;
-			
-			// aapt resource value: 0x7f040031
-			public const int notification_media_cancel_action = 2130968625;
-			
-			// aapt resource value: 0x7f040032
-			public const int notification_template_big_media = 2130968626;
-			
-			// aapt resource value: 0x7f040033
-			public const int notification_template_big_media_narrow = 2130968627;
-			
-			// aapt resource value: 0x7f040034
-			public const int notification_template_lines = 2130968628;
-			
-			// aapt resource value: 0x7f040035
-			public const int notification_template_media = 2130968629;
-			
-			// aapt resource value: 0x7f040036
-			public const int notification_template_part_chronometer = 2130968630;
-			
-			// aapt resource value: 0x7f040037
-			public const int notification_template_part_time = 2130968631;
-			
-			// aapt resource value: 0x7f040038
-			public const int select_dialog_item_material = 2130968632;
-			
-			// aapt resource value: 0x7f040039
-			public const int select_dialog_multichoice_material = 2130968633;
-			
-			// aapt resource value: 0x7f04003a
-			public const int select_dialog_singlechoice_material = 2130968634;
-			
-			// aapt resource value: 0x7f04003b
-			public const int SplashScreen = 2130968635;
-			
-			// aapt resource value: 0x7f04003c
-			public const int support_simple_spinner_dropdown_item = 2130968636;
+			public const int support_simple_spinner_dropdown_item = 2130968614;
 			
 			static Layout()
 			{

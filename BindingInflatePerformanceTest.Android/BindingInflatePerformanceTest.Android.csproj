@@ -55,46 +55,37 @@
     </Reference>
     <Reference Include="Mono.Android.Export" />
     <Reference Include="CrossUI.Core">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\CrossUI.Core.dll</HintPath>
+      <HintPath>..\..\MvvmCross\bin\Release\Mvx\Droid\CrossUI.Core.dll</HintPath>
     </Reference>
     <Reference Include="CrossUI.Droid">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\CrossUI.Droid.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.AutoView">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.AutoView.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.AutoView.Droid">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.AutoView.Droid.dll</HintPath>
+      <HintPath>..\..\MvvmCross\bin\Release\Mvx\Droid\CrossUI.Droid.dll</HintPath>
     </Reference>
     <Reference Include="MvvmCross.Binding">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Binding.dll</HintPath>
+      <HintPath>..\..\MvvmCross\bin\Release\Mvx\Droid\MvvmCross.Binding.dll</HintPath>
     </Reference>
     <Reference Include="MvvmCross.Binding.Droid">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Binding.Droid.dll</HintPath>
+      <HintPath>..\..\MvvmCross\bin\Release\Mvx\Droid\MvvmCross.Binding.Droid.dll</HintPath>
     </Reference>
     <Reference Include="MvvmCross.Core">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Dialog.Droid">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Dialog.Droid.dll</HintPath>
+      <HintPath>..\..\MvvmCross\bin\Release\Mvx\Droid\MvvmCross.Core.dll</HintPath>
     </Reference>
     <Reference Include="MvvmCross.Droid">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Droid.dll</HintPath>
+      <HintPath>..\..\MvvmCross\bin\Release\Mvx\Droid\MvvmCross.Droid.dll</HintPath>
     </Reference>
     <Reference Include="MvvmCross.Droid.FullFragging">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Droid.FullFragging.dll</HintPath>
+      <HintPath>..\..\MvvmCross\bin\Release\Mvx\Droid\MvvmCross.Droid.FullFragging.dll</HintPath>
     </Reference>
     <Reference Include="MvvmCross.Droid.Shared">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Droid.Shared.dll</HintPath>
+      <HintPath>..\..\MvvmCross\bin\Release\Mvx\Droid\MvvmCross.Droid.Shared.dll</HintPath>
     </Reference>
     <Reference Include="MvvmCross.Localization">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Localization.dll</HintPath>
+      <HintPath>..\..\MvvmCross\bin\Release\Mvx\Droid\MvvmCross.Localization.dll</HintPath>
     </Reference>
     <Reference Include="MvvmCross.Platform">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Platform.dll</HintPath>
+      <HintPath>..\..\MvvmCross\bin\Release\Mvx\Droid\MvvmCross.Platform.dll</HintPath>
     </Reference>
     <Reference Include="MvvmCross.Platform.Droid">
-      <HintPath>..\..\..\Documents\GitHub\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Platform.Droid.dll</HintPath>
+      <HintPath>..\..\MvvmCross\bin\Release\Mvx\Droid\MvvmCross.Platform.Droid.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
