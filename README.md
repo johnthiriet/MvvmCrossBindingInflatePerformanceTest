@@ -13,10 +13,10 @@ The SetContentView method of MvxActivity has been modified.
 public override void SetContentView(int layoutResId)
 {
 	View view;
-	using (MvxStopWatch.Create("BindingInflate", "Duration"))
-	{
-		view = this.BindingInflate(layoutResId, null);
-	}
+	var sw = Stopwatch.StartNew();
+	view = this.BindingInflate(layoutResId, null);
+	sw.Stop();
+	Mvx.TaggedTrace(MvxTraceLevel.Diagnostic, "BindingInflate", "ElapsedTicks {0}, ElapsedMilliseconds {1}", sw.ElapsedTicks, sw.ElapsedMilliseconds);
 	this.SetContentView(view);
 }
 ```
